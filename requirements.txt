@@ -1,0 +1,4 @@
+oletools
+pdfminer.six
+PySide6
+pytest

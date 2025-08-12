@@ -1,0 +1,30 @@
+/* Modern dark theme for MacroScope GUI */
+QWidget {
+    background-color: #232629;
+    color: #f8f8f2;
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    font-size: 14px;
+}
+QPushButton {
+    background-color: #44475a;
+    color: #f8f8f2;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: bold;
+}
+QPushButton:hover {
+    background-color: #6272a4;
+}
+QTextEdit, QLineEdit {
+    background-color: #282a36;
+    color: #f8f8f2;
+    border: 1px solid #44475a;
+    border-radius: 4px;
+}
+QLabel {
+    color: #f8f8f2;
+}
+QMenuBar, QMenu {
+    background-color: #232629;
+    color: #f8f8f2;
+}

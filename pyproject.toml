@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "macroscope"
+version = "0.1.0"
+description = "Unified Document Malware Triage Toolkit"
+authors = [
+    { name = "Matthew Potts", email = "your@email.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "oletools",
+    "pdfminer.six",
+    "PySide6"
+]
